@@ -1,6 +1,6 @@
 
 
-define(['angular','js/rotuteConfig','js/controller','js/factory','angular-animate',"ui-bootstrap","ng-sanitize"],
+define(['angular','my/rotuteConfig','my/controller','my/factory','angular-animate',"ui-bootstrap","ng-sanitize"],
     function(angular,rotuteConfig,controller,factory){
     var resumeApp = angular.module('resumeApp', ['ngRoute', 'ngAnimate','ui.bootstrap',"ngSanitize"]);
         rotuteConfig.start(resumeApp);

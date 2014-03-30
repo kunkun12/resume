@@ -1,7 +1,7 @@
 ({
     baseUrl: ".",
     paths:{
-    	my:"js",
+    	"my":"js",
     	"angular":"empty:",
     	"angular-route":"empty:",
     	"ng-sanitize":"empty:",
@@ -9,5 +9,5 @@
     	'ui-bootstrap':"empty:"
     },
     name: "js/main",
-   	out: "js/main-built.js"
+   	out: "js/built/main-built.js"
 })

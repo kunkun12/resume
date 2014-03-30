@@ -87,12 +87,13 @@
         require.config({
           baseUrl: '.',
           paths: {
+            "my":'js',
             'angular': '//cdn.bootcss.com/angular.js/1.2.0rc3/angular',
             'angular-route':"//cdn.bootcss.com/angular.js/1.2.0rc3/angular-route",
             'angular-animate':'//cdn.bootcss.com/angular.js/1.2.0rc3/angular-animate',
             "ng-sanitize":"bower_components/angular-sanitize.min",
             'ui-bootstrap':'//cdn.bootcss.com/angular-ui-bootstrap/0.9.0/ui-bootstrap.min',
-             "waitSeconds": 30
+            "waitSeconds": 30
           },
           shim: {
             'angular' : {'exports' : 'angular'},
@@ -102,7 +103,7 @@
              'ng-sanitize': { deps: ['angular']}
           }
         });
-        require(["js/main-built"]);
+        require(["my/main"]);
   </script>
  
 </body>
