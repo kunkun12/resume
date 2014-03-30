@@ -22,7 +22,7 @@ define([],function(){
       resumeApp.factory('Experiencefo', function() {
            return {school:{
              schoolinfo:"2008.09-2012.06  华北水利水电学院(本科) 专业：地理信息系统",
-             description:"描述：在校期间自学计算机技术，且参与了数个实际的项目得到实践。主要基于.NET平台开发,并且带领过四人以上的团队。"
+             description:"描述：在校期间自学计算机技术，参与了四个实际的项目。主要基于.NET平台开发,并且带领过四人以上的团队。"
            },  
             workexperience:[
             {
