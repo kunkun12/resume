@@ -82,7 +82,29 @@
 </header>
 	<div class="page {{ pageClass }}" ng-view>
   </div>
-  <script  data-main='js/main-built' src="http://cdn.bootcss.com/require.js/2.1.11/require.min.js"></script>
+  <script  src="http://cdn.bootcss.com/require.js/2.1.11/require.min.js"></script>
+  <script type="text/javascript">
+        require.config({
+          baseUrl: '.',
+          paths: {
+            'angular': '//cdn.bootcss.com/angular.js/1.2.0rc3/angular',
+            'angular-route':"//cdn.bootcss.com/angular.js/1.2.0rc3/angular-route",
+            'angular-animate':'//cdn.bootcss.com/angular.js/1.2.0rc3/angular-animate',
+            "ng-sanitize":"//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.0rc3/angular-sanitize.min",
+            'ui-bootstrap':'//cdn.bootcss.com/angular-ui-bootstrap/0.9.0/ui-bootstrap.min',
+             "waitSeconds": 30
+          },
+          shim: {
+            'angular' : {'exports' : 'angular'},
+            'angular-route': { deps: ['angular']},
+            'ui-bootstrap': { deps: ['angular']},
+            'angular-animate':{ deps: ['angular']},
+             'ng-sanitize': { deps: ['angular']}
+          }
+        });
+        require(["js/main"]);
+
+  </script>
  
 </body>
 </html>
