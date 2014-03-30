@@ -1,0 +1,31 @@
+
+<div class="container">
+	<div class='row outRight' style='margin-top:75px'>
+<!-- 	<pre id='jsonresume' class="col-xs-12  col-sm-10   col-md-5" >
+		<code >
+		var kunkunResume={
+			"name":	"杜保坤",
+		 	"major":"GIS",
+		 	"college":"华北水利水电学院",
+		 	"education":"本科"
+		 	"cellphone":"18501253812",
+		 	"birth":'1988.1',
+		 	"email":"baokundu@gmail.com"
+		};
+		</code>
+</pre> -->
+
+<div class="col-xs-12 col-sm-10  thumbnail avatarcontainer col-md-offset-4  col-md-4" >
+	<img class="img-circle avatar"  src="images/avatar.jpg" />
+	<div class='caption' >
+		<p>baokundu@gmail.com</p>
+		<a ng-repeat="i in Adrresses" ng-href={{i.href}} class='img-circle' style='background-image:url({{i.src}});background-size: cover'  title={{i.title}} target='_blank'>
+	
+</a>
+</div>
+</div>
+</div>
+<div class='row experienceitem outRight'>
+	<blockquote class='col-md-6' ng-repeat='i in selfAssessmentInfo' ng-bind-html="i"></blockquote>
+</div>
+</div>

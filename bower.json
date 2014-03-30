@@ -1,0 +1,12 @@
+{
+    "author": {
+        "name": "http://kunkun12.com"
+    },
+    "name": "myresume",
+    "version": "0.10.0",
+    "dependencies": {
+        "angular": "*",
+        "requirejs": "*",
+        "angular-bootstrap": "*"
+    }    
+}

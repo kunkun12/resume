@@ -1,0 +1,29 @@
+.page-workexperience {
+  background: #1BA1E2;
+  font-size: 18px;
+  padding-top: 20px;
+  color: #f5deb3;
+  margin-top: 50px;
+}
+.page-workexperience.ng-leave {
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation: rotateOutNewspaper 0.5s both ease-in;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation: rotateOutNewspaper 0.5s both ease-in;
+  transform-origin: 50% 50%;
+  animation: rotateOutNewspaper 0.5s both ease-in;
+}
+.page-workexperience.ng-enter {
+  -webkit-animation: slideInUp 0.5s both ease-in;
+  -moz-animation: slideInUp 0.5s both ease-in;
+  animation: slideInUp 0.5s both ease-in;
+}
+.page-workexperience .row {
+  -webkit-animation: scaleUp 0.5s 1s 1 ease-in both;
+  animation: scaleUp 0.5s 1s 1 ease-in both;
+  -moz-animation: scaleUp 0.5s 1s 1 ease-in both;
+  -o-animation: scaleUp 0.5s 1s 1 ease-in both;
+}
+.page-workexperience .row li hr {
+  margin-top: 0;
+}

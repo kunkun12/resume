@@ -1,0 +1,50 @@
+.page-skills {
+  background-color: #1abc9c;
+  font-size: 20px;
+  padding-top: 50px;
+  color: #f5deb3;
+}
+.page-skills .container {
+  margin-top: 50px;
+}
+.page-skills.ng-enter {
+  -webkit-animation: slideInRight 0.5s 0.3s both ease-in;
+  -moz-animation: slideInRight 0.5s both ease-in;
+  animation: slideInRight 0.5s 0.3s both ease-in;
+}
+.page-skills.ng-leave {
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation: rotateOutSkills 0.5s both ease-in;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation: rotateOutSkills 0.5s both ease-in;
+  transform-origin: 50% 50%;
+  animation: rotateOutSkills 0.5s both ease-in;
+}
+.page-skills .row {
+  -webkit-animation: scaleUp 0.5s 1s 1 ease-in both;
+  animation: scaleUp 0.5s 1s 1 ease-in both;
+  -moz-animation: scaleUp 0.5s 1s 1 ease-in both;
+  -o-animation: scaleUp 0.5s 1s 1 ease-in both;
+}
+.page-skills .row li hr {
+  margin-top: 0;
+}
+/* rotate out newspaper */
+@-webkit-keyframes rotateOutSkills {
+  to {
+    -webkit-transform: translateZ(-3000px) rotateZ(-360deg);
+    opacity: 0;
+  }
+}
+@-moz-keyframes rotateOutSkills {
+  to {
+    -moz-transform: translateZ(-3000px) rotateZ(-360deg);
+    opacity: 0;
+  }
+}
+@keyframes rotateOutSkills {
+  to {
+    transform: translateZ(-3000px) rotateZ(-360deg);
+    opacity: 0;
+  }
+}

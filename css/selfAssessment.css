@@ -1,0 +1,76 @@
+.page-selfAssessment {
+  background-color: #996600;
+  color: #f5deb3;
+}
+.page-selfAssessment blockquote {
+  margin-top: 50px;
+  font-size: 20px;
+  border-left: 5px solid #7E5050;
+}
+.page-selfAssessment.ng-leave {
+  -webkit-animation: selfAssessmentslideOut 0.5s both ease-in;
+  -moz-animation: selfAssessmentslideOut 0.5s both ease-in;
+  animation: selfAssessmentslideOut 0.5s both ease-in;
+}
+.page-selfAssessment.ng-enter {
+  -webkit-animation: selfAssessmentslideIn 0.5s 0.5s both ease-in;
+  -moz-animation: selfAssessmentslideIn 0.5s 0.5s both ease-in;
+  animation: selfAssessmentslideIn 0.5s 0.5s both ease-in;
+}
+.page-selfAssessment .row {
+  -webkit-animation: scaleUp 0.5s 1s 1 ease-in both;
+  animation: scaleUp 0.5s 1s 1 ease-in both;
+  -moz-animation: scaleUp 0.5s 1s 1 ease-in both;
+  -o-animation: scaleUp 0.5s 1s 1 ease-in both;
+}
+.page-selfAssessment .row li hr {
+  margin-top: 0;
+}
+@keyframes selfAssessmentslideIn {
+  from {
+    transform: translateY(100%) translateX(100%);
+  }
+  to {
+    transform: translateY(0) translateX(0);
+  }
+}
+@-moz-keyframes selfAssessmentslideIn {
+  from {
+    -moz-transform: translateY(100%) translateX(100%);
+  }
+  to {
+    -moz-transform: translateY(0) translateX(0);
+  }
+}
+@-webkit-keyframes selfAssessmentslideIn {
+  from {
+    -webkit-transform: translateY(100%) translateX(100%);
+  }
+  to {
+    -webkit-transform: translateY(0) translateX(0);
+  }
+}
+@keyframes selfAssessmentslideOut {
+  from {
+    transform: translateY(0) translateX(0);
+  }
+  to {
+    transform: translateY(100%) translateX(100%);
+  }
+}
+@-moz-keyframes selfAssessmentslideOut {
+  from {
+    -moz-transform: translateY(0) translateX(0);
+  }
+  to {
+    -moz-transform: translateY(100%) translateX(100%);
+  }
+}
+@-webkit-keyframes selfAssessmentslideOut {
+  from {
+    -webkit-transform: translateY(0) translateX(0);
+  }
+  to {
+    -webkit-transform: translateY(100%) translateX(100%);
+  }
+}

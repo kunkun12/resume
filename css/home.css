@@ -1,0 +1,146 @@
+.page-home {
+  color: white;
+  background: #55d98d;
+}
+.page-home blockquote {
+  margin-top: 50px;
+  font-size: 20px;
+  border-left: 5px solid #7E5050;
+}
+.page-home img.avatar {
+  height: 200px;
+  -webkit-animation: rotateAvatar 1s 3s 1 ease-in;
+  animation: rotateAvatar 1s 3s 1 ease-in;
+  -moz-animation: rotateAvatar 1s 3s 1 ease-in;
+}
+.page-home .avatar:hover {
+  transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+  transition: transform 1s;
+  -moz-transition: -moz-transform 1s;
+  /* Firefox 4 */
+  -webkit-transition: -webkit-transform 1s;
+  /* Safari 和 Chrome */
+  -o-transition: -o-transform 1s;
+  /* Opera */
+}
+.page-home .avatarcontainer {
+  background: #55B855;
+  border: none;
+  background-color: transparent;
+}
+.page-home .avatarcontainer .caption {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  opacity: 0.4;
+  font-size: 16px;
+}
+.page-home .avatarcontainer .caption a {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+.page-home .avatarcontainer .caption a:hover {
+  background: red;
+}
+.page-home .avatarcontainer .caption:hover {
+  opacity: 1.0;
+}
+.page-home .container .row {
+  -webkit-animation: slideInRight 0.5s 1s 1 ease-in forwards;
+  animation: slideInRight 0.5s 1s 1 ease-in forwards;
+  -moz-animation: slideInRight 0.5s 1s 1 ease-in forwards;
+  -o-animation: slideInRight 0.5s 1s 1 ease-in forwards;
+}
+.page-home .container .row pre {
+  background: #55B855;
+  color: wheat;
+  border: none;
+  padding-left: 50px;
+}
+.page-home.ng-leave .container .row {
+  -webkit-animation: slideoutRight 0.5s 0s 1 ease-in forwards;
+  animation: slideoutRight 0.5s 0s 1 ease-in forwards;
+  -moz-animation: slideoutRight 0.5s 0s 1 ease-in forwards;
+  -o-animation: slideoutRight 0.5s 0s 1 ease-in forwards;
+}
+.page-home.ng-leave {
+  -webkit-transform-origin: 0% 0%;
+  -webkit-animation: rotateFall 1s both ease-in;
+  -moz-transform-origin: 0% 0%;
+  -moz-animation: rotateFall 1s both ease-in;
+  transform-origin: 0% 0%;
+  animation: rotateFall 1s both ease-in;
+}
+.page-home.ng-enter {
+  -webkit-animation: scaleUp 1s both ease-in;
+  -moz-animation: scaleUp 1s both ease-in;
+  animation: scaleUp 1s both ease-in;
+}
+#jsonresume {
+  text-align: left;
+  min-width: 400px;
+}
+#jsonresume code {
+  font-size: 1.2em;
+}
+.outRight {
+  transform: translateX(500%);
+  -moz-transform: translateX(500%);
+  -webkit-transform: translateX(500%);
+  -o-transform: translateX(500%);
+}
+@-webkit-keyframes rotateAvatar {
+  to {
+    -webkit-transform: rotateZ(360deg);
+  }
+}
+@-moz-keyframes rotateAvatar {
+  to {
+    -moz-transform: rotateZ(360deg);
+  }
+}
+@keyframes rotateAvatar {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@-o-keyframes rotateAvatar {
+  to {
+    -o-transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes slideoutRight {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-800px);
+  }
+}
+@-moz-keyframes slideoutRight {
+  from {
+    -moz-transform: translateX(0);
+  }
+  to {
+    -moz-transform: translateX(-800px);
+  }
+}
+@keyframes slideoutRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-800px);
+  }
+}
+@-o-keyframes slideoutRight {
+  from {
+    -o-transform: translateX(0);
+  }
+  to {
+    -o-transform: translateX(-800px);
+  }
+}

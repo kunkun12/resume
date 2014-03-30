@@ -1,0 +1,21 @@
+
+<div class="container">
+<div class='row experienceitem'>
+<h3>教育背景</h3>
+<hr>
+	<p>{{Experiencefo.school.schoolinfo}}</p>
+	<p>{{Experiencefo.school.description}}</p>
+</div>
+<div class='row experienceitem'>
+	<section >
+	<h3>工作经历</h3>
+	<div ng-repeat='i in Experiencefo.workexperience'>
+		<hr>
+	<p>公司名称：{{i.companyName}}</p>
+ 	<p>工作时间：{{i.date}}</p>
+	<p>工作职位: {{i.titile}}</p>
+	<p>工作描述：{{i.description}}</p>
+	</div>
+	</section>
+</div>
+</div>

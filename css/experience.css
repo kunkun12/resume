@@ -1,0 +1,47 @@
+.page-experience {
+  font-size: 20px;
+  color: #f5deb3;
+  background-color: #4e6d8d;
+  min-height: 100% ;
+  overflow: hidden;
+}
+.page-experience.ng-leave {
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation: rotateOutNewspaper 0.5s both ease-in;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation: rotateOutNewspaper 0.5s both ease-in;
+  transform-origin: 50% 50%;
+  animation: rotateOutNewspaper 0.5s both ease-in;
+}
+.page-experience.ng-enter {
+  -webkit-animation: slideInRight 0.5s both ease-in;
+  -moz-animation: slideInRight 0.5s both ease-in;
+  animation: slideInRight 0.5s both ease-in;
+}
+.page-experience .experienceitem {
+  margin-top: 50px;
+  -webkit-animation: slideEaseIntoUp 1s 0.6s 1 ease-in-out both;
+  animation: slideEaseIntoUp 1s 0.6s 1 ease-in-out both;
+  -moz-animation: slideEaseIntoUp 1s 0.6s 1 ease-in-out both;
+  -o-animation: slideInRight 1s 0.6s 1 ease-in-out both;
+}
+@-webkit-keyframes slideEaseIntoUp {
+  from {
+    -webkit-transform: translateY(1500px);
+  }
+}
+@-moz-keyframes slideEaseIntoUp {
+  from {
+    -moz-transform: translateY(1500px);
+  }
+}
+@keyframes slideEaseIntoUp {
+  from {
+    transform: translateY(1500px);
+  }
+}
+@-o-keyframes slideEaseIntoUp {
+  from {
+    -o-transform: translateY(1500px);
+  }
+}
