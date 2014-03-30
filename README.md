@@ -1,6 +1,6 @@
 resume
 ======
-
+[在线地址](http://kunkun12.com/resume)
 ###如何运行。
 
 下载源码部署到自己的WebServer下面，或者使用NodeJS。下载源码之后使用命令行工具进入到该项目目录下，运行npm install。模块安装完毕之后、输入 localhost:3000。
