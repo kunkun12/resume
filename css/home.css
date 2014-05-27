@@ -144,3 +144,11 @@
     -o-transform: translateX(-800px);
   }
 }
+a,
+input,
+button {
+  outline: none;
+}
+::-moz-focus-inner {
+  border: 0px;
+}

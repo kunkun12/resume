@@ -18,6 +18,15 @@
 .page-about .container {
   margin-top: 70px;
 }
+.cf:before,
+.cf:after {
+  clear: both;
+  content: "";
+}
+.cf {
+  display: table;
+  *zoom: 1;
+}
 
 .page-experience {
   font-size: 20px;
@@ -212,6 +221,14 @@
   to {
     -o-transform: translateX(-800px);
   }
+}
+a,
+input,
+button {
+  outline: none;
+}
+::-moz-focus-inner {
+  border: 0px;
 }
 
 .page-selfAssessment {
