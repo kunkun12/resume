@@ -27,9 +27,7 @@ define([],function(){
             $scope.selfAssessmentInfo=selfAssessmentInfo;
         }]);
   }
-   
    return  	{start:appController};
-
 })
 
 
