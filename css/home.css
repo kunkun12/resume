@@ -3,8 +3,8 @@
   background: #55d98d;
 }
 .page-home blockquote {
-  margin-top: 50px;
-  font-size: 20px;
+  height: 60px;
+  font-size: 16px;
   border-left: 5px solid #7E5050;
 }
 .page-home img.avatar {

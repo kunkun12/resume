@@ -49,7 +49,7 @@
   animation: slideInRight 0.5s both ease-in;
 }
 .page-experience .experienceitem {
-  margin-top: 50px;
+  font-size: 16px;
   -webkit-animation: slideEaseIntoUp 1s 0.6s 1 ease-in-out both;
   animation: slideEaseIntoUp 1s 0.6s 1 ease-in-out both;
   -moz-animation: slideEaseIntoUp 1s 0.6s 1 ease-in-out both;
@@ -81,8 +81,8 @@
   background: #55d98d;
 }
 .page-home blockquote {
-  margin-top: 50px;
-  font-size: 20px;
+  height: 60px;
+  font-size: 16px;
   border-left: 5px solid #7E5050;
 }
 .page-home img.avatar {
@@ -317,6 +317,10 @@ button {
 .page-skills .container {
   margin-top: 50px;
 }
+.page-skills blockquote {
+  height: 60px;
+  font-size: 16px;
+}
 .page-skills.ng-enter {
   -webkit-animation: slideInRight 0.5s 0.3s both ease-in;
   -moz-animation: slideInRight 0.5s both ease-in;
@@ -375,6 +379,7 @@ body {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 .page {
+  padding-top: 60px;
   position: absolute;
   width: 100%;
   min-height: 100% ;
@@ -584,9 +589,12 @@ body {
 .page-workexperience {
   background: #1BA1E2;
   font-size: 18px;
-  padding-top: 20px;
   color: #f5deb3;
-  margin-top: 50px;
+  font-size: 16px;
+}
+.page-workexperience blockquote {
+  padding: 0px 20px;
+  font-size: 16px;
 }
 .page-workexperience.ng-leave {
   -webkit-transform-origin: 50% 50%;
