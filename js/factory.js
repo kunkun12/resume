@@ -42,7 +42,7 @@ define([],function(){
         });
          resumeApp.factory('skillInfo', function() {
            return [ "JS：扎实的JavaScript/HTML/CSS 基础、熟悉Angluarjs、Dojo、Vue.js、jQuery、Zepto、Underscore、D3.js等，了解ES6",
-                    "熟悉AMD、CommonJS模块化规范、熟悉使用Dojo、RequireJS模块化开发，能够使用r.js优化AMD程序。",
+                    "熟悉AMD、CommonJS模块化规范、熟悉使用Dojo、RequireJS模块化开发以及r.js优化AMD程序。",
                     "HTML5:熟悉HTML5语义化标签、熟悉HTML5 相关API 如Canvas 、SVG、Geolcation 、IndexDb、LocalStrorage、WebSocket、WebWork、Video的使用。",                
                    "CSS3:熟悉CSS3新特性如transform、transication、animate、Media Query、fLexbox等。熟悉Bootstrap、Angular-Bootstrap、SemanticUI等UI组件框架，熟悉Less",
                    "熟悉移动WebAPP、Hybrid WebApp开发，熟悉Cordova，Ionic。了解Android 、Windows Phone的Native开发。",
