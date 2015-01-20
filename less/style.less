@@ -6,6 +6,15 @@ html,body{
  overflow-x: hidden;
  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
 }
+  blockquote{
+  padding-top:0;
+    height:60px;
+    font-size: 16px;
+  }
+.img-circle {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
 .bs-docs-nav {
 text-shadow: 0 -1px 0 rgba(0,0,0,.15);
 background-color: #563d7c;
@@ -52,14 +61,6 @@ box-shadow: 0 1px 0 rgba(255,255,255,.1);
 /* ANIMATIONS
 ============================================================================= */
 
-/* page specific animations ------------------------ */
-/* home -------------------------- */
-
-/* about ------------------------ */
-
-/* contact ---------------------- */
-
-/* rotate and fall */
 @-webkit-keyframes rotateFall {
   0% {
     -webkit-transform: rotateZ(0deg);
@@ -221,12 +222,21 @@ box-shadow: 0 1px 0 rgba(255,255,255,.1);
 
 
 @media (max-width: 767px) {
-
     .visible-xs.collapse.in {
         display: block!important;
     }
     .visible-xs.collapse {
         display: none!important;
     }
+
+}
+@media (max-width: 640px){
+  blockquote{
+      height:auto;
+      padding-top:0px;
+  }
+  .page{
+      padding:60px 10px;
+  }
 
 }

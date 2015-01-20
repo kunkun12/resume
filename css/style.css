@@ -80,11 +80,6 @@
   color: white;
   background: #55d98d;
 }
-.page-home blockquote {
-  height: 60px;
-  font-size: 16px;
-  border-left: 5px solid #7E5050;
-}
 .page-home img.avatar {
   height: 200px;
   -webkit-animation: rotateAvatar 1s 3s 1 ease-in;
@@ -314,13 +309,6 @@ button {
   padding-top: 50px;
   color: #f5deb3;
 }
-.page-skills .container {
-  margin-top: 50px;
-}
-.page-skills blockquote {
-  height: 60px;
-  font-size: 16px;
-}
 .page-skills.ng-enter {
   -webkit-animation: slideInRight 0.5s 0.3s both ease-in;
   -moz-animation: slideInRight 0.5s both ease-in;
@@ -372,6 +360,15 @@ body {
   overflow-x: hidden;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif;
 }
+blockquote {
+  padding-top: 0;
+  height: 60px;
+  font-size: 16px;
+}
+.img-circle {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
 .bs-docs-nav {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
   background-color: #563d7c;
@@ -414,11 +411,6 @@ body {
 }
 /* ANIMATIONS
 ============================================================================= */
-/* page specific animations ------------------------ */
-/* home -------------------------- */
-/* about ------------------------ */
-/* contact ---------------------- */
-/* rotate and fall */
 @-webkit-keyframes rotateFall {
   0% {
     -webkit-transform: rotateZ(0deg);
@@ -585,6 +577,15 @@ body {
     display: none!important;
   }
 }
+@media (max-width: 640px) {
+  blockquote {
+    height: auto;
+    padding-top: 0px;
+  }
+  .page {
+    padding: 60px 10px;
+  }
+}
 
 .page-workexperience {
   background: #1BA1E2;
@@ -593,7 +594,8 @@ body {
   font-size: 16px;
 }
 .page-workexperience blockquote {
-  padding: 0px 20px;
+  height: 25px;
+  padding: 0px 10px;
   font-size: 16px;
 }
 .page-workexperience.ng-leave {

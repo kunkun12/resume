@@ -4,13 +4,6 @@
   padding-top: 50px;
   color: #f5deb3;
 }
-.page-skills .container {
-  margin-top: 50px;
-}
-.page-skills blockquote {
-  height: 60px;
-  font-size: 16px;
-}
 .page-skills.ng-enter {
   -webkit-animation: slideInRight 0.5s 0.3s both ease-in;
   -moz-animation: slideInRight 0.5s both ease-in;
