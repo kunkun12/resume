@@ -52,7 +52,7 @@ define([],function(){
                   "熟悉.NET的 WebService、WPF、SilverLight开发，了解Java 以及DWR框架",
                   "数据库：了解PostgresQL、MySQL、MongoDb、Sqlite的基本使用。",
                   "理解面向对象程序设计，了解常用设计模式。",
-                  "其他技能：Linux、Mac基本命令，熟悉Git、SourceTree 操作、熟练PS、会使用Grunt/Gulp对项目进行项目自动化构建、了解Yeoman。"];
+                  "其他技能：Linux、Mac基本命令，熟悉Git、SourceTree、PS、Grunt/Gulp、了解Yeoman。"];
           });
           resumeApp.factory('workExperienceInfo', function() {
            return {work: [
